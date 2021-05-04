@@ -1,0 +1,53 @@
+{
+    "model": {
+        "architecture": "MobileNet",
+        "input_size": 224,
+        "anchors": [0.57273, 0.677385, 1.87446, 2.06253, 3.33843, 5.47434, 7.88282, 3.52778, 9.77052, 9.16828],
+        "labels": ["VM-D3",
+            "VM-E16",
+            "VM-C35",
+            "VM-C39",
+            "VM-C25",
+            "VM-C3",
+            "VM-C2",
+            "VM-C1",
+            "VM-B4",
+            "VM-B5",
+            "VM-C31-3",
+            "VM-C31-4",
+            "VM-C31-5",
+            "VM-C31-6",
+            "VM-C31-7",
+            "VM-C31-8",
+            "VM-C31-9",
+            "VM-B3",
+            "VM-B2",
+            "VM-B1",
+            "VM-A40",
+            "VM-A10",
+            "VM-A20"
+        ],
+        "coord_scale": 1.0,
+        "class_scale": 1.0,
+        "object_scale": 5.0,
+        "no_object_scale": 1.0
+    },
+    "pretrained": {
+        "full": "/content/Yolo-digit-detector/save-files/model.h5"
+    },
+    "train": {
+        "actual_epoch": 100,
+        "train_image_folder": "/content/raccoon_dataset/Images",
+        "train_annot_folder": "/content/raccoon_dataset/annotationsXML",
+        "train_times": 6,
+        "valid_image_folder": "/content/raccoon_dataset/Testing_Images",
+        "valid_annot_folder": "/content/raccoon_dataset/Testing_annotationsXML",
+        "valid_times": 2,
+        "batch_size": 6,
+        "learning_rate": 1e-4,
+        "saved_folder": "/content/Yolo-digit-detector/save-files",
+        "first_trainable_layer": "",
+        "jitter": true,
+        "is_only_detect": false
+    }
+}
