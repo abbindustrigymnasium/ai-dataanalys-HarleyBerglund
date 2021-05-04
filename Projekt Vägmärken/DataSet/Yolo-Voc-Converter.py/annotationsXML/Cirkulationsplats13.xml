@@ -1,0 +1,1 @@
+<annotations><filename>Cirkulationsplats13.JPEG</filename><folder>images</folder><size><width>137</width><height>159</height><depth>3</depth></size><object><name>VM-D3</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>8.999999999999993</xmin><ymin>4.0</ymin><xmax>128.99999999999997</xmax><ymax>154.0</ymax></bndbox></object></annotations>

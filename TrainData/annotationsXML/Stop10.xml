@@ -1,0 +1,1 @@
+<annotations><filename>Stop10.JPEG</filename><folder>images</folder><size><width>700</width><height>394</height><depth>3</depth></size><object><name>VM-B2</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>576.0</xmin><ymin>114.99999999999997</ymin><xmax>633.0</xmax><ymax>178.99999999999997</ymax></bndbox></object></annotations>

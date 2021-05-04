@@ -1,0 +1,1 @@
+<annotations><filename>Hastighet40_1.JPEG</filename><folder>images</folder><size><width>608</width><height>608</height><depth>3</depth></size><object><name>VM-C31-4</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>32.00000000000006</xmin><ymin>34.0</ymin><xmax>576.0</xmax><ymax>573.0</ymax></bndbox></object></annotations>

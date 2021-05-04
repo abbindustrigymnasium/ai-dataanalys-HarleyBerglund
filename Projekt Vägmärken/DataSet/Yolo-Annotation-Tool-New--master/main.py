@@ -19,7 +19,7 @@ MAIN_COLORS = ['darkolivegreen', 'darkseagreen', 'darkorange', 'darkslategrey', 
                'darkgoldenrod', 'darkgrey', 'darkslateblue', 'darkorchid', 'skyblue', 'yellow', 'orange', 'red', 'pink', 'violet', 'green', 'brown', 'gold', 'Olive', 'Maroon', 'blue', 'cyan', 'black', 'olivedrab', 'lightcyan', 'silver', ]
 
 # image sizes for the examples
-SIZE = 608, 608
+SIZE = 1000, 1000
 
 classes = []
 
@@ -31,7 +31,6 @@ except IOError as io:
     print("[ERROR] Please create classes.txt and put your all classes")
     sys.exit(1)
 COLORS = random.sample(set(MAIN_COLORS), len(classes))
-COLORS = ['blue']
 
 
 class LabelTool():

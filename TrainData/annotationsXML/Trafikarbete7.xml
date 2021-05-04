@@ -1,0 +1,1 @@
+<annotations><filename>Trafikarbete7.JPEG</filename><folder>images</folder><size><width>556</width><height>279</height><depth>3</depth></size><object><name>VM-A20</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>117.00000000000003</xmin><ymin>28.0</ymin><xmax>274.0</xmax><ymax>193.0</ymax></bndbox></object></annotations>

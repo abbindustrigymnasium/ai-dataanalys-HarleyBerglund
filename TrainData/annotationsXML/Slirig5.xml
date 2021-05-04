@@ -1,0 +1,1 @@
+<annotations><filename>Slirig5.JPEG</filename><folder>images</folder><size><width>921</width><height>1442</height><depth>3</depth></size><object><name>VM-A10</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>7.0</xmin><ymin>23.999999999999943</ymin><xmax>912.0</xmax><ymax>952.0</ymax></bndbox></object></annotations>

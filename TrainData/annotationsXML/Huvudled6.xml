@@ -1,0 +1,1 @@
+<annotations><filename>Huvudled6.JPEG</filename><folder>images</folder><size><width>600</width><height>400</height><depth>3</depth></size><object><name>VM-B4</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>168.00000000000006</xmin><ymin>69.0</ymin><xmax>403.00000000000006</xmax><ymax>355.0</ymax></bndbox></object></annotations>

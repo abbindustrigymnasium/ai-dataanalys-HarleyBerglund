@@ -1,0 +1,1 @@
+<annotations><filename>Enkelriktad1.JPEG</filename><folder>images</folder><size><width>608</width><height>608</height><depth>3</depth></size><object><name>VM-E16</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>34.0</xmin><ymin>200.0</ymin><xmax>574.0</xmax><ymax>408.0</ymax></bndbox></object></annotations>
