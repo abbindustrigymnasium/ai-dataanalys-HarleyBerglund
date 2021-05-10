@@ -30,7 +30,7 @@ Här ligger allt meterial som jag har jobbat med under lektionstid. Det första 
 
 
 ## Algoritmic Trading
-info om algoritmic trading
+När jag var klar med uppgifterna i swayen gav Jocke mig ett dokument om Algoritmic Trading eftersom jag är intresserad av aktier. Det här var verkligen jätteroligt att hålla på med och framför allt väldigt lärorikt. När jag har lite mer fritid kommer jag garanterat att fortsätta med detta. 
 
 ### [Chapter 1]
 Algoritmisk aktiehandel eller automatiserad aktiehandel, fungerar genom att ett program som innehåller en uppsättning av
