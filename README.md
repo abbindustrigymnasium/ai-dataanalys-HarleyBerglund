@@ -70,24 +70,20 @@ Beskrivning av processen
 ## Resultat
 Hur blev då resultatet av mitt projekt?
 
-Man kan börja med att säga att det inte riktigt gick som jag tänkt och planerat ([Utmaningar](#utmaningar))
+Man kan börja med att säga att det inte riktigt gick som jag tänkt och planerat ([Utmaningar](#utmaningar)), men jag är fortfarande ganska nöjd med det jag har åstadkommit. Tanken till en början var att hinna med att utveckla någon form av app som man kunde använda för att skanna skyltar med mobiltelefon. Detta var kanske lite väl optimistiskt eftersom vi bara hade ca 12h arbetestid. Man underskattar lätt hur lång tid själva datainsamlingen egentligen tar. 
 
-dsd
-sd
-s
-d
-s
-d
-sd
-s
-d
-sd
-s
-d
-sd
-s
-ds
-d
+Jag lyckades med att:
+
+- samla in ett bra urval av bilder från internet.
+- konvertera dessa bilder så att jag kunde köra dem genom annotation_tool så att man senare kan genomföra träning. 
+- konvertera txt-filerna som man får från annotation_tool till XML format.
+- få Yolo att fungera och använda kameran på datorn för att testa med. 
+
+Det jag har kvar: 
+
+- Träna vikterna i Google Colab
+
+
 
 ## Utmaningar
 Vilka utmaningar stötte jag på. 
