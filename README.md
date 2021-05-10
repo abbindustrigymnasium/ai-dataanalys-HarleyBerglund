@@ -65,7 +65,17 @@ Här skapade jag en perceptron, som är en del av ett neuralt nätverk. Jag anv�
 Bakrunden till mitt projekt är att jag för inte så länge sedan tog körkort och märkte att det ibland kunde vara svårt att förstå och framför allt summera skyltars betydelse. Det jag tänker mest på då är parkeringsskyltar och hur olika tidsregler och betalningsrekler väldigt ofta är svåra att tyda. Och när jag tänkte lite mer på det här kom jag på den idé, nämligen en app där man kunde skanna av vägskyltar och få en skriftlig förklaring på skyltarnas betydelse. Denna app skulle kunna förenkla för nya förare, men även till exempel om du kommer från ett annat land och ska köra i Sverige. 
 
 ## Process
-Beskrivning av processen
+Här går jag igenom stegen som jag tog.
+
+1. Började samla bilder på alla trafikskyltar (Enbart bilder på skyltarna med vit bakgrund)
+2. Jag ville testa hur Yolo fungerade, så jag laddade ner lite filer och installerade några bibliotek. 
+3. Körde en Yolo med färdiga vikter med datorns kamera. Detta fungerade nästan helt perfekt, man skulle kunna fixa en lite högre fps men annars fungerade det jättebra. 
+4. Insåg att dessa bilder inte skulle räcka, så jag började samla ännu fler bilder. Jag skalade också ner projektet då jag insåg att det skulle ta för lång tid att samla bilder på alla skyltar. 
+5. Använde annotation tool för att makera ut vart på bilderna träningen ska kolla. (txt format)
+6. Gjorde en konvertering på datan till XML istället för txt. 
+7. Gjorde en json-fil som sedan skulle användas i träningen så att den bl.a. visste vart den skulle hitta filerna. 
+8. Försökte använda scriptet i Jockes github ComputerVision för att träna i Google Colab. 
+9. Lyckades inte så bra med detta och det här är egentligen så långt jag kom i det här projektet. 
 
 ## Resultat
 Hur blev då resultatet av mitt projekt?
@@ -87,14 +97,14 @@ Det jag har kvar/vill göra:
 - I framtiden kunna addera skyltars betydelse till en sammanhängande text (exempel parkeringsskylt och huvudled)
 
 
-
 ## Utmaningar
 Vilka utmaningar stötte jag på? 
 
 Som jag tidigare nämnt var det svårt och tidskrävande att hitta bilder som mötte kraven. 
 
-Den största utmaningen jag stötte på, som också slukade den största delen av min tid var träningen i Google Colab. Jag tyckte att jag hade alla filer som behövdes för att göra detta, och det hade jag också. Men det som satte stop för mig var att själva skriptet var uttaterat, dvs att vissa bibliotek inte fungerade likadant som de gjorde för ett år sedan då detta script gjordes. 
+Den största utmaningen jag stötte på, som också slukade den största delen av min tid var träningen i Google Colab. Jag tyckte att jag hade alla filer som behövdes för att göra detta, och det hade jag också. Men det som satte stop för mig var att själva skriptet var utdaterat, dvs att vissa bibliotek inte fungerade likadant som de gjorde för ett år sedan då detta script gjordes. 
 
+En utmaning jag tror att jag skulle stöta på längre fram i projektet är implementeringen av Yolo i en mobil app. Jag har inte ens hunnit kolla på hur detta skulle kunna göras, men min gissning är att det blir en ganska stor utmaning. 
 
 # TrainData
 Här ligger den datan som jag ska träna min yolo med. Dvs bilderna, annotations i XLM format och startfilen som heter roadsigns.json
