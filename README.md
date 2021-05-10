@@ -79,14 +79,21 @@ Jag lyckades med att:
 - konvertera txt-filerna som man får från annotation_tool till XML format.
 - få Yolo att fungera och använda kameran på datorn för att testa med. 
 
-Det jag har kvar: 
+Det jag har kvar/vill göra: 
 
-- Träna vikterna i Google Colab
+- Träna vikterna i Google Colab.
+- Utveckla en app som kan skanna av skyltarna. 
+- Sammla ännu fler bilder och ta egna från lite fler vinklar och avstånd. 
+- I framtiden kunna addera skyltars betydelse till en sammanhängande text (exempel parkeringsskylt och huvudled)
 
 
 
 ## Utmaningar
-Vilka utmaningar stötte jag på. 
+Vilka utmaningar stötte jag på? 
+
+Som jag tidigare nämnt var det svårt och tidskrävande att hitta bilder som mötte kraven. 
+
+Den största utmaningen jag stötte på, som också slukade den största delen av min tid var träningen i Google Colab. Jag tyckte att jag hade alla filer som behövdes för att göra detta, och det hade jag också. Men det som satte stop för mig var att själva skriptet var uttaterat, dvs att vissa bibliotek inte fungerade likadant som de gjorde för ett år sedan då detta script gjordes. 
 
 
 # TrainData
