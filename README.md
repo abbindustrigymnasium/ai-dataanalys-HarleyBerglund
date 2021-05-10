@@ -15,6 +15,8 @@ ai-dataanalys-HarleyBerglund created by GitHub Classroom
       - [Chapter 2](#chapter-2)
   - [Knearest Neighbour](#knearest-neighbour)
   - [Perceptron](#perceptron)
+  - [Linear Regression](#linear-regression)
+  - [Neural](#perceptron)
   
 - [Projekt Vägmärken](#projekt-vägmärken)
   - [Bakgrund Projekt](#bakgrund-projekt)
@@ -58,7 +60,10 @@ Detta kapitel handlade om:
 Här gjode jag 2 olika knearest neighbour pythonscrips, en grundläggande och en annan som gissade vad olika politiker skulle rösta. 
 ## Perceptron
 Här skapade jag en perceptron, som är en del av ett neuralt nätverk. Jag använde mig av javascript-biblioteket P5 för detta. 
-
+## Linear Regression
+Linear Regression ur Swayen
+## Neural Network
+Ett neuralt nätverk ur Swayen
 
 # Projekt Vägmärken
 ## Bakgrund projekt
