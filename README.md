@@ -17,7 +17,10 @@ ai-dataanalys-HarleyBerglund created by GitHub Classroom
   - [Perceptron](#perceptron)
   
 - [Projekt Vägmärken](#projekt-vägmärken)
-  - [Inledning Projekt](#inledning-projekt)
+  - [Bakgrund Projekt](#bakgrund-projekt)
+  - [Process](#process)
+  - [Resultat](#resultat)
+  - [Utmaningar](#utmaningar)
 - [TrainData](#traindata)
 
 
@@ -58,8 +61,36 @@ Här skapade jag en perceptron, som är en del av ett neuralt nätverk. Jag anv�
 
 
 # Projekt Vägmärken
-## Inledning projekt
+## Bakgrund projekt
 Bakrunden till mitt projekt är att jag för inte så länge sedan tog körkort och märkte att det ibland kunde vara svårt att förstå och framför allt summera skyltars betydelse. Det jag tänker mest på då är parkeringsskyltar och hur olika tidsregler och betalningsrekler väldigt ofta är svåra att tyda. Och när jag tänkte lite mer på det här kom jag på den idé, nämligen en app där man kunde skanna av vägskyltar och få en skriftlig förklaring på skyltarnas betydelse. Denna app skulle kunna förenkla för nya förare, men även till exempel om du kommer från ett annat land och ska köra i Sverige. 
+
+## Process
+Beskrivning av processen
+
+## Resultat
+Hur blev då resultatet av mitt projekt?
+
+Man kan börja med att säga att det inte riktigt gick som jag tänkt och planerat ([Utmaningar](#utmaningar))
+
+dsd
+sd
+s
+d
+s
+d
+sd
+s
+d
+sd
+s
+d
+sd
+s
+ds
+d
+
+## Utmaningar
+Vilka utmaningar stötte jag på. 
 
 
 # TrainData
